@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Employee</title>
+</head>
+<body>
+	<form action="EmployeeServlet" method="post">
+		<input type="hidden" name="operation" value="insert"/>
+		<p>Name : <input type="text" name="name"/></p>
+		<p>Department : <input type="text" name="dept"/></p>
+		<p>Designation : <input type="text" name="designation"/></p>
+		<p>Salary : <input type="text" name="salary"/></p>
+		<button type="submit">Save</button>
+	</form>
+</body>
+</html>
